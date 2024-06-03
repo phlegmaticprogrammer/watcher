@@ -1,11 +1,11 @@
 
 /* IMPORT */
 
-import {debounce} from 'dettle';
+import {debounce} from '@phlegmaticprogrammer/dettle';
 import fs from 'node:fs';
 import path from 'node:path';
-import sfs from 'stubborn-fs';
-import readdir from 'tiny-readdir';
+import sfs from '@phlegmaticprogrammer/stubborn-fs';
+import readdir from '@phlegmaticprogrammer/tiny-readdir';
 import {POLLING_TIMEOUT} from './constants';
 import type {Callback, Ignore, ReaddirMap, Stats} from './types';
 

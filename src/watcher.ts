@@ -14,7 +14,7 @@ import type {Callback, Disposer, Handler, Ignore, Path, PollerConfig, Subwatcher
 
 /* MAIN */
 
-class Watcher extends EventEmitter {
+export class Watcher extends EventEmitter {
 
   /* VARIABLES */
 
