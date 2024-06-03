@@ -1,6 +1,6 @@
 {
-  "name": "watcher",
-  "repository": "github:fabiospampinato/watcher",
+  "name": "@phlegmaticprogrammer/watcher",
+  "repository": "github:phlegmaticprogrammer/watcher",
   "description": "The file system watcher that strives for perfection, with no native dependencies and optional rename detection support.",
   "version": "2.4.0",
   "main": "dist/watcher.js",
